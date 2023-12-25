@@ -21,8 +21,8 @@ const ScProducts = styled.section`
 `;
 
 const Products = (/*props*/) => {
-  const {products}=useContext(ProductContext)
-  const {addItem}=useContext(CartContext)
+  const {products,addItem}=useContext(ProductContext)
+  
   return (
     <ScProducts>
       {/* {props.products.map((product) => (
